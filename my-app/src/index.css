@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body{
+  font-family: 'Mulish', sans-serif;
+}
+:root{
+  --yellow-theme-background-color:#1d1d1d;
+  --yellow-theme-sub-text:#fff;
+  --yellow-theme-nav-background-color:#181818;
+  --yellow-theme-main-background-color:#fee600;
+}
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+body{
+  background: var(--yellow-theme-background-color);
+height: 100%;
+}
+#root{
+  height: 100%;
+}
+

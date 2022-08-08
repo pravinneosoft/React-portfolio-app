@@ -1,0 +1,46 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.heading{
+    color: var(--yellow-theme-main-background-color);
+    font-size: 52px;
+    font-weight: 650;
+    width: 700px;
+    text-align: start;
+    margin-left: 265px;
+}
+
+.herobanner__paragraph{
+font-size: 48px;
+font-weight: 400;
+color: var(--yellow-theme-main-background-color);
+text-align: start;
+margin-left: 135px;
+width: 700px;}
+.herobanner__paragraph-span{
+    color:green;
+}
+.btn {
+    color: var(--yellow-theme-main-background-color);
+    border: solid;  
+    text-decoration: none;
+}
+
+.btn--learn {
+    border-radius: 25px !important;
+    padding: 5px 18px 5px 18px;
+    font-weight: 400;
+    background: transparent;
+    border: 3px solid blue;
+    margin-top: 30px;
+    font-size: x-large;
+    &:hover {
+        background: var(--yellow-theme-main-background-color);
+        color: #fff;
+        border-color: #fff;
+    }
+}
